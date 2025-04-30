@@ -33,7 +33,7 @@ const TourPage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <VirtualTour imageUrl="/public/pexels-boonkong-boonpeng-442952-1134176.jpg" />
+          <VirtualTour imageUrl="/pexels-boonkong-boonpeng-442952-1134176.jpg" />
         </motion.div>
       </div>
     </div>
