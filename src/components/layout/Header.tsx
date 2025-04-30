@@ -23,7 +23,7 @@ const Header = () => {
   // Handle scroll effect
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 1) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -58,7 +58,7 @@ const Header = () => {
             className={`mr-2 ${
               isScrolled || isMenuOpen || location.pathname !== '/' 
                 ? 'text-primary-800' 
-                : 'text-white'
+                : 'text-primary-800'
             }`} 
             size={28} 
           />
@@ -66,7 +66,7 @@ const Header = () => {
             className={`font-serif text-xl font-semibold ${
               isScrolled || isMenuOpen || location.pathname !== '/' 
                 ? 'text-primary-800' 
-                : 'text-white'
+                : 'text-primary-800'
             }`}
           >
             Hôtel Horizon
@@ -211,7 +211,7 @@ const Header = () => {
       
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white py-4 px-4 shadow-lg animate-fade-in">
+        <div className="md:hidden bg-black py-4 px-4 shadow-lg animate-fade-in">
           <nav className="flex flex-col space-y-4">
             <Link to="/" className="text-primary-800 hover:text-secondary-600 py-2 transition-colors">
               {t('nav.home')}

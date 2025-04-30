@@ -59,7 +59,7 @@ const Hero = () => {
       {/* Scroll indicator */}
       <motion.div 
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
-        initial={{ opacity: 0 }}
+        initial={{ opacity: 1 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1, repeat: Infinity, repeatType: "reverse" }}
       >
