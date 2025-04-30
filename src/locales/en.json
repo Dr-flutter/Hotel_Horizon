@@ -1,0 +1,210 @@
+{
+  "nav": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "tour": "360° Tour",
+    "booking": "Booking",
+    "contact": "Contact",
+    "login": "Login",
+    "admin": "Admin",
+    "logout": "Logout"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to Hotel Horizon",
+      "subtitle": "A luxury experience with panoramic views",
+      "cta": "Book Now",
+      "tourCta": "Immersive Tour"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Hotel Horizon offers an unparalleled experience of luxury and comfort. Located in an idyllic setting, our establishment combines contemporary elegance and personalized service to create memorable stays."
+    },
+    "services": {
+      "title": "Our Services",
+      "restaurant": "Gourmet Restaurant",
+      "spa": "Spa & Wellness",
+      "pool": "Panoramic Pool",
+      "wifi": "Free Wi-Fi",
+      "parking": "Secure Parking",
+      "concierge": "Concierge Service"
+    },
+    "rooms": {
+      "title": "Our Rooms",
+      "description": "Discover our luxurious rooms designed for your comfort",
+      "viewAll": "View all rooms"
+    },
+    "testimonials": {
+      "title": "Guest Reviews",
+      "cta": "View all reviews"
+    }
+  },
+  "rooms": {
+    "title": "Our Rooms",
+    "subtitle": "Discover our selection of rooms",
+    "filter": {
+      "dates": "Dates",
+      "guests": "Guests",
+      "type": "Room Type",
+      "price": "Price",
+      "search": "Search"
+    },
+    "perNight": "per night",
+    "book": "Book",
+    "details": "Details",
+    "availability": "Availability",
+    "notAvailable": "Not available for selected dates"
+  },
+  "roomDetail": {
+    "amenities": "Amenities",
+    "bookNow": "Book Now",
+    "virtualTour": "Virtual Tour",
+    "description": "Description",
+    "reviews": "Guest Reviews",
+    "availability": "Availability",
+    "similarRooms": "Similar Rooms"
+  },
+  "tour": {
+    "title": "360° Virtual Tour",
+    "subtitle": "Explore our hotel before your stay",
+    "instructions": "Use your mouse or finger to navigate the panoramic view",
+    "rooms": "Our Spaces",
+    "lobby": "Lobby",
+    "restaurant": "Restaurant",
+    "spa": "Spa",
+    "suite": "Deluxe Suite",
+    "pool": "Pool"
+  },
+  "booking": {
+    "title": "Booking",
+    "step1": "Selection",
+    "step2": "Details",
+    "step3": "Payment",
+    "step4": "Confirmation",
+    "selectRoom": "Select a room",
+    "dates": "Stay dates",
+    "guests": "Number of guests",
+    "personalInfo": "Personal Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "specialRequests": "Special Requests",
+    "termsConditions": "I accept the terms and conditions",
+    "paymentDetails": "Payment Details",
+    "cardNumber": "Card Number",
+    "expiryDate": "Expiry Date",
+    "cvv": "CVV",
+    "completeBooking": "Complete Booking",
+    "bookingConfirmed": "Booking Confirmed",
+    "confirmationEmail": "A confirmation email has been sent to",
+    "bookingReference": "Booking Reference",
+    "backToHome": "Back to Home"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send"
+    },
+    "info": {
+      "title": "Information",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Opening Hours"
+    },
+    "success": "Your message has been sent successfully!"
+  },
+  "auth": {
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "loginButton": "Login",
+    "loginError": "Incorrect email or password"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "rooms": "Rooms",
+    "bookings": "Bookings",
+    "users": "Users",
+    "settings": "Settings",
+    "welcome": "Welcome to Admin Dashboard",
+    "stats": {
+      "totalBookings": "Total Bookings",
+      "occupancyRate": "Occupancy Rate",
+      "revenue": "Revenue",
+      "pendingBookings": "Pending Bookings"
+    },
+    "roomsManagement": {
+      "title": "Rooms Management",
+      "addRoom": "Add Room",
+      "editRoom": "Edit Room",
+      "deleteRoom": "Delete Room",
+      "roomNumber": "Room Number",
+      "type": "Type",
+      "price": "Price",
+      "capacity": "Capacity",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "bookingsManagement": {
+      "title": "Bookings Management",
+      "bookingId": "ID",
+      "guest": "Guest",
+      "room": "Room",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "status": "Status",
+      "totalPrice": "Total Price",
+      "actions": "Actions",
+      "viewDetails": "View Details",
+      "updateStatus": "Update",
+      "cancelBooking": "Cancel"
+    },
+    "usersManagement": {
+      "title": "Users Management",
+      "addUser": "Add User",
+      "userId": "ID",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "lastLogin": "Last Login",
+      "actions": "Actions",
+      "editUser": "Edit",
+      "deleteUser": "Delete"
+    }
+  },
+  "footer": {
+    "description": "Hotel Horizon offers you an unforgettable stay experience with quality services and exceptional comfort.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "address": "123 Horizon Avenue, 75001 Yaounde, Cameroon",
+    "phone": "+237 690 19 84 84",
+    "email": "Ibrahimyoussouf@gmail.com",
+    "copyright": "© 2025 Hotel Horizon. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Page not found",
+    "backToHome": "Back to home",
+    "required": "This field is required",
+    "invalidEmail": "Invalid email",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "success": "Success",
+    "error": "Error"
+  }
+}

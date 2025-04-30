@@ -1,0 +1,210 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "rooms": "Chambres",
+    "tour": "Visite 360°",
+    "booking": "Réservation",
+    "contact": "Contact",
+    "login": "Connexion",
+    "admin": "Administration",
+    "logout": "Déconnexion"
+  },
+  "home": {
+    "hero": {
+      "title": "Bienvenue à l'Hôtel Horizon",
+      "subtitle": "Une expérience de luxe avec vue panoramique",
+      "cta": "Réserver maintenant",
+      "tourCta": "Visite immersive"
+    },
+    "about": {
+      "title": "À propos de nous",
+      "description": "L'Hôtel Horizon offre une expérience inégalée de luxe et de confort. Situé dans un cadre idyllique, notre établissement combine élégance contemporaine et service personnalisé pour créer des séjours mémorables."
+    },
+    "services": {
+      "title": "Nos services",
+      "restaurant": "Restaurant gastronomique",
+      "spa": "Spa & bien-être",
+      "pool": "Piscine panoramique",
+      "wifi": "Wi-Fi gratuit",
+      "parking": "Parking sécurisé",
+      "concierge": "Service de conciergerie"
+    },
+    "rooms": {
+      "title": "Nos chambres",
+      "description": "Découvrez nos chambres luxueuses conçues pour votre confort",
+      "viewAll": "Voir toutes les chambres"
+    },
+    "testimonials": {
+      "title": "Avis clients",
+      "cta": "Voir tous les avis"
+    }
+  },
+  "rooms": {
+    "title": "Nos chambres",
+    "subtitle": "Découvrez notre sélection de chambres",
+    "filter": {
+      "dates": "Dates",
+      "guests": "Voyageurs",
+      "type": "Type de chambre",
+      "price": "Prix",
+      "search": "Rechercher"
+    },
+    "perNight": "par nuit",
+    "book": "Réserver",
+    "details": "Détails",
+    "availability": "Disponibilité",
+    "notAvailable": "Non disponible aux dates sélectionnées"
+  },
+  "roomDetail": {
+    "amenities": "Équipements",
+    "bookNow": "Réserver maintenant",
+    "virtualTour": "Visite virtuelle",
+    "description": "Description",
+    "reviews": "Avis clients",
+    "availability": "Disponibilité",
+    "similarRooms": "Chambres similaires"
+  },
+  "tour": {
+    "title": "Visite virtuelle 360°",
+    "subtitle": "Explorez notre hôtel avant votre séjour",
+    "instructions": "Utilisez votre souris ou le doigt pour vous déplacer dans la vue panoramique",
+    "rooms": "Nos espaces",
+    "lobby": "Lobby",
+    "restaurant": "Restaurant",
+    "spa": "Spa",
+    "suite": "Suite Deluxe",
+    "pool": "Piscine"
+  },
+  "booking": {
+    "title": "Réservation",
+    "step1": "Sélection",
+    "step2": "Détails",
+    "step3": "Paiement",
+    "step4": "Confirmation",
+    "selectRoom": "Sélectionnez une chambre",
+    "dates": "Dates du séjour",
+    "guests": "Nombre de personnes",
+    "personalInfo": "Informations personnelles",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "specialRequests": "Demandes particulières",
+    "termsConditions": "J'accepte les conditions générales",
+    "paymentDetails": "Informations de paiement",
+    "cardNumber": "Numéro de carte",
+    "expiryDate": "Date d'expiration",
+    "cvv": "CVV",
+    "completeBooking": "Finaliser la réservation",
+    "bookingConfirmed": "Réservation confirmée",
+    "confirmationEmail": "Un email de confirmation a été envoyé à",
+    "bookingReference": "Référence de réservation",
+    "backToHome": "Retour à l'accueil"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes à votre écoute",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer"
+    },
+    "info": {
+      "title": "Informations",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Email",
+      "hours": "Heures d'ouverture"
+    },
+    "success": "Votre message a été envoyé avec succès!"
+  },
+  "auth": {
+    "login": "Connexion",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié?",
+    "loginButton": "Se connecter",
+    "loginError": "Email ou mot de passe incorrect"
+  },
+  "admin": {
+    "dashboard": "Tableau de bord",
+    "rooms": "Chambres",
+    "bookings": "Réservations",
+    "users": "Utilisateurs",
+    "settings": "Paramètres",
+    "welcome": "Bienvenue sur le tableau de bord administrateur",
+    "stats": {
+      "totalBookings": "Réservations totales",
+      "occupancyRate": "Taux d'occupation",
+      "revenue": "Revenus",
+      "pendingBookings": "Réservations en attente"
+    },
+    "roomsManagement": {
+      "title": "Gestion des chambres",
+      "addRoom": "Ajouter une chambre",
+      "editRoom": "Modifier la chambre",
+      "deleteRoom": "Supprimer la chambre",
+      "roomNumber": "Numéro de chambre",
+      "type": "Type",
+      "price": "Prix",
+      "capacity": "Capacité",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "bookingsManagement": {
+      "title": "Gestion des réservations",
+      "bookingId": "ID",
+      "guest": "Client",
+      "room": "Chambre",
+      "checkIn": "Arrivée",
+      "checkOut": "Départ",
+      "status": "Statut",
+      "totalPrice": "Prix total",
+      "actions": "Actions",
+      "viewDetails": "Voir détails",
+      "updateStatus": "Mettre à jour",
+      "cancelBooking": "Annuler"
+    },
+    "usersManagement": {
+      "title": "Gestion des utilisateurs",
+      "addUser": "Ajouter un utilisateur",
+      "userId": "ID",
+      "name": "Nom",
+      "email": "Email",
+      "role": "Rôle",
+      "lastLogin": "Dernière connexion",
+      "actions": "Actions",
+      "editUser": "Modifier",
+      "deleteUser": "Supprimer"
+    }
+  },
+  "footer": {
+    "description": "L'Hôtel Horizon vous offre une expérience de séjour inoubliable avec des services de qualité et un confort exceptionnel.",
+    "quickLinks": "Liens rapides",
+    "contact": "Contact",
+    "address": "123 Avenue de l'Horizon, 75001 Yaounde, Cameroun",
+    "phone": "+237 690 19 84 84",
+    "email": "Ibrahimyoussouf@gmail",
+    "copyright": "© 2025 Hôtel Horizon. Tous droits réservés."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "notFound": "Page non trouvée",
+    "backToHome": "Retour à l'accueil",
+    "required": "Ce champ est requis",
+    "invalidEmail": "Email invalide",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non",
+    "success": "Succès",
+    "error": "Erreur"
+  }
+}
