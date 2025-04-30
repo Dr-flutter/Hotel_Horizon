@@ -202,16 +202,16 @@ const Header = () => {
           className="md:hidden"
         >
           {isMenuOpen ? (
-            <X size={24} className={isScrolled || location.pathname !== '/' ? 'text-primary-800' : 'text-white'} />
+            <X size={24} className={isScrolled || location.pathname !== '/' ? 'text-primary-800' : 'text-primary-800'} />
           ) : (
-            <Menu size={24} className={isScrolled || location.pathname !== '/' ? 'text-primary-800' : 'text-white'} />
+            <Menu size={24} className={isScrolled || location.pathname !== '/' ? 'text-primary-800' : 'text-primary-800'} />
           )}
         </button>
       </div>
       
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-black py-4 px-4 shadow-lg animate-fade-in">
+        <div className="md:hidden bg-white py-4 px-4 shadow-lg animate-fade-in">
           <nav className="flex flex-col space-y-4">
             <Link to="/" className="text-primary-800 hover:text-secondary-600 py-2 transition-colors">
               {t('nav.home')}
