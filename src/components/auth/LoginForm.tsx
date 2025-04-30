@@ -108,7 +108,10 @@ const LoginForm = () => {
         
         <div className="mt-6 text-center text-sm text-gray-500">
           <p>Utilisez les identifiants suivants pour la démo:</p>
-          <p className="font-mono mt-1">Email: admin@hotel-horizon.fr</p>
+          <p className="font-mono mt-1">
+          Email: admin**********zon.com
+            {/* Email: admin@hotel-horizon.fr */}
+            </p>
           <p className="font-mono">Mot de passe: admin123</p>
         </div>
       </div>
