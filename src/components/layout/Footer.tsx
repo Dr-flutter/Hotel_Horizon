@@ -1,10 +1,39 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, Bookmark } from 'lucide-react';
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 const Footer = () => {
   const { t } = useTranslation();
-  
+  const [email, setEmail] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleNewsletterSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      await emailjs.send(
+        "service_0to0bj7", // Remplacez par votre SERVICE_ID
+        "template_havcfca", // Remplacez par votre TEMPLATE_ID
+        {
+          message: email, // Remplacez par le champ attendu par votre template EmailJS
+        },
+        "et07V2zZ-j7z8Vpk-" // Remplacez par votre PUBLIC_KEY
+      );
+
+      toast.success(t('newsletter.success'));
+      setEmail(''); // Réinitialise le champ email
+    } catch (error) {
+      toast.error(t('common.error'));
+      console.error('EmailJS Error:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <footer className="bg-primary-800 text-white pt-12 pb-6">
       <div className="container mx-auto px-4">
@@ -88,17 +117,25 @@ const Footer = () => {
             <p className="text-gray-300 mb-4">
               Inscrivez-vous à notre newsletter pour recevoir nos offres spéciales.
             </p>
-            <form className="flex flex-col space-y-2">
+            <form onSubmit={handleNewsletterSubmit} className="flex flex-col space-y-2">
               <input
                 type="email"
                 placeholder="Votre email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
                 className="px-4 py-2 bg-primary-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-600 placeholder-gray-400"
               />
               <button
                 type="submit"
-                className="px-4 py-2 bg-secondary-600 hover:bg-secondary-700 text-white rounded-md transition-colors"
+                disabled={isSubmitting}
+                className={`px-4 py-2 ${
+                  isSubmitting
+                    ? 'bg-gray-400 cursor-not-allowed'
+                    : 'bg-secondary-600 hover:bg-secondary-700'
+                } text-white rounded-md transition-colors`}
               >
-                S'inscrire
+                {isSubmitting ? 'Envoi en cours...' : "S'inscrire"}
               </button>
             </form>
           </div>
